@@ -1,9 +1,8 @@
 import Layout from '@/components/admin/Layout'
 import React from 'react'
 
-type Props = {}
 
-const Settings = (props: Props) => {
+const Settings = () => {
   return (
     <Layout>Settings Page Here </Layout>
   )

@@ -1,9 +1,6 @@
 import Layout from "@/components/admin/Layout";
-import NavBar from "@/components/admin/NavBar";
-import SideNav from "@/components/admin/SideNav";
 import ProfileImage from "@/components/shared/ProfileImage";
-import { type NextPage } from "next";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 
 
 export default function Admin() {

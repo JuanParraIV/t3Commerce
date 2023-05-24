@@ -3,9 +3,8 @@ import React from 'react'
 import ProfileImage from '../shared/ProfileImage'
 import { useSession } from 'next-auth/react'
 
-type Props = {}
 
-const NavBar = (props: Props) => {
+const NavBar = () => {
   const { data: sessionData } = useSession();
 
   return (

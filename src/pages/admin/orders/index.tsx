@@ -1,9 +1,8 @@
 import Layout from '@/components/admin/Layout'
 import React from 'react'
 
-type Props = {}
 
-const Orders = (props: Props) => {
+const Orders = () => {
   return (
     <Layout>Orders Page Here </Layout>
   )

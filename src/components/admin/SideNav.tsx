@@ -2,11 +2,10 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import React from 'react'
 
-type Props = {}
 const hoveredLink = 'border-l-4 border-transparent hover:border-white rounded-l-lg';
 const inactiveLink = hoveredLink;
 const activeLink = 'bg-white text-blue-900 border-l-4 border-transparent border-red-400 rounded-l-lg';
-const SideNav = (props: Props) => {
+const SideNav = () => {
   const { pathname } = useRouter();
   return (
     <aside className='text-white py-6 pl-4 pr-0'>

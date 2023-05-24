@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "@/components/admin/NavBar";
 import SideNav from "@/components/admin/SideNav";
 import { type NextPage } from "next";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { useSession } from "next-auth/react";
 
 
 interface ILayout {
